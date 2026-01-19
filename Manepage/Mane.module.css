@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 98.8vw;
+  height: 162vh;
+  background: url("../assets/ufs.png") center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: red solid 2px;
+}
+main .component {
+  width: 100%;
+  height: 83%;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+main .component .comp1 {
+  width: 38%;
+  height: 50%;
+}
+main .component .comp1 .text {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+main .component .comp1 .text .p1 {
+  color: rgb(244, 49, 19);
+  font-size: 2rem;
+}
+main .component .comp1 .text .p_big {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .component .comp1 .text .p_big .p2 {
+  font-size: 3.2rem;
+  font-weight: 200;
+}
+main .component .comp1 .text .p_big .p3 {
+  font-size: 3.2rem;
+}
+main .component .comp1 .button_text {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+main .component .comp1 .button_text .p_button {
+  font-size: 2.8rem;
+  color: white;
+}
+main .component .comp1 .button_text .p2_button {
+  font-size: 5rem;
+  color: white;
+}
+main .component .comp1 .button_text button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.25rem;
+  background: rgb(255, 43, 15);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main .component .comp2 {
+  width: 25%;
+  height: 50%;
+}
+main .component2 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+main .component2 .point1 {
+  width: 80%;
+  height: 50%;
+}
+main .component2 .point1 p {
+  font-size: 2rem;
+  color: white;
+}
+main .component2 .point2 {
+  width: 85%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .component2 .point2 .txt {
+  width: 12%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+main .component2 .point2 .txt p {
+  font-size: 1.5rem;
+  color: white;
+}
+main .component2 .point2 .txt .text {
+  color: red;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=Mane.module.css.map */

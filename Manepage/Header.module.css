@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  width: 98.8vw;
+  height: 17vh;
+}
+header .container_phone {
+  width: 100%;
+  height: 50%;
+  background-color: #3A3A3C;
+  display: flex;
+  justify-content: space-around;
+}
+header .container_phone .logo1 {
+  width: 13%;
+  height: 100%;
+  background-color: rgb(255, 43, 15);
+}
+header .container_phone .logo1 img {
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  left: 55px;
+  top: 55px;
+}
+header .container_phone .phone {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container_phone .phone .tel {
+  color: rgba(242, 242, 247, 0.8549019608);
+}
+header .container_phone .phone .tel strong {
+  color: #F2F2F7;
+}
+header .container_phone .autorisation {
+  width: 14%;
+  height: 100%;
+  background-color: rgb(255, 30, 0);
+}
+header .text {
+  width: 100%;
+  height: 50%;
+  background-color: #2C2C2E;
+  display: flex;
+  justify-content: space-around;
+}
+header .text .logo2 {
+  width: 13%;
+  height: 100%;
+  background-color: rgb(255, 30, 0);
+}
+header .text .Links {
+  width: 85%;
+  height: 100%;
+}
+header .text .Links .link {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .text .Links .link a {
+  color: white;
+  text-decoration: none;
+}
+header .text .Links .link a:hover {
+  color: rgb(255, 30, 0);
+}/*# sourceMappingURL=Header.module.css.map */
